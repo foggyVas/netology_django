@@ -49,7 +49,7 @@ def time_view(request):
 
 
 def workdir_view(request):
-    template_name = 'app/wd_list.html'
+    template_name = 'app/wd.html'
     context = {
         'wd_list': os.listdir()
     }
